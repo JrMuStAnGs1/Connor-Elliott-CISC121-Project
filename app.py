@@ -5,6 +5,8 @@ import copy
 # -----------------------------
 # DATASETS (4 Grand Slams)
 # -----------------------------
+
+#All players who has 2+ wins in the open era for each grand slam
 tournaments = {
     "Wimbledon": [
         {"name": "Federer", "wins": 8},
@@ -193,7 +195,9 @@ def simulate_match_ui(p1_name, p2_name):
 
     if p1 is None or p2 is None:
         return "Invalid players selected.", "", ""
-
+        
+#Match Winner algorithm
+    
     total = p1["wins"] + p2["wins"]
     probA = 0.5 if total == 0 else p1["wins"] / total
 
