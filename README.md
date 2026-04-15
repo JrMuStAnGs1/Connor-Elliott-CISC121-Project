@@ -16,29 +16,53 @@ Alorithmic Design: Inputs: Tournament selection and player selection. These are 
 Flowchart:
 
 Start
+
   ↓
+  
 Select Tournament
+
   ↓
+  
 Load Player Data
+
   ↓
+  
 Display Unsorted List
+
   ↓
+  
 Apply Merge Sort
+
   ↓
+  
 Visualize Steps (Split → Compare → Merge)
+
   ↓
+  
 Display Sorted Leaderboard
+
   ↓
+  
 User Selects Two Players
+
   ↓
+  
 Simulate Match
+
   ↓
+  
 Update Winner’s Wins
+
   ↓
+  
 Re-apply Merge Sort
+
   ↓
+  
 Display Updated Leaderboard
+
   ↓
+  
 Repeat or End
 
 Steps to run locally: 
