@@ -13,6 +13,34 @@ Abstraction: The program focuses on the key ideas built around the merge sort al
 
 Alorithmic Design: Inputs: Tournament selection and player selection. These are both selected by the user. Process: Load the dataset from the selected tournament. Apply the merge sort. Simulate the head to head match of the players selected by user. Resort the players. Outputs: Visualization of the step-by-step merge sort process. Display the final ranked player list. Show updated list after matchup is complete.
 
+Flowchart:
+
+Start
+  ↓
+Select Tournament
+  ↓
+Load Player Data
+  ↓
+Display Unsorted List
+  ↓
+Apply Merge Sort
+  ↓
+Visualize Steps (Split → Compare → Merge)
+  ↓
+Display Sorted Leaderboard
+  ↓
+User Selects Two Players
+  ↓
+Simulate Match
+  ↓
+Update Winner’s Wins
+  ↓
+Re-apply Merge Sort
+  ↓
+Display Updated Leaderboard
+  ↓
+Repeat or End
+
 Steps to run locally: 
 1. Clone the repository: git clone https://github.com/JrMuStAnGs1/Connor-Elliott-CISC121-Project/tree/main
    cd Connor-Elliott-CISC121-Project
