@@ -20,6 +20,8 @@ Steps to run locally:
 3. Run the application: python app.py
 4. Open in Browser: Open the link from the terminal
 
+Hugging Face Link: https://huggingface.co/spaces/c0nn0r-e/Tennis_Visualizer
+
 Testing: To test the program I went through a normal test case where I just selected each tournament, sorted the players, selected 2 names and completed the match up just to ensure that when edgecases are ignored then the code works properly. Next, I tested edge cases, What happens if the player did not select a tournament and the user tries to sort the data. The app will display an error message requiring the user to load a tournament. Another edge case I tested was if the same player was selected twice for the match up. This causes an error message requesting th euser to select two different players. Another case I tested is if no players were selected to be matched up and the user tries to play the match. This causes the user to be prompted to select both players. Another test I did was running the same match up mulitple times and seeing if it still updates the win count each time which was true.
 
 Author: Connor Elliott
