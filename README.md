@@ -3,7 +3,7 @@ This project has tasked me with created a python app which demonstrates either m
 
 I decided to use merge sort for this project. For my app, tennis players will need to be sorted based on how many times they have won the selected tournament using merge sort. The user can select two players from the list of winners and they will be matched up head to head where a winner will be selected. A player with more tournament wins will have a higher probability of winning the match however a lower win player can still win. The selected winner will have their win count increase by 1 and then the two players will be added back into the list of players where they will be resorted based on number of wins. I decided to use merge sort instead of quick sort for this project because it ensure a complexity of O(n log n) regardless of the input order. Merge sort is a very easy to visualize using the app. It can show the comparison of the players by breaking them up into smaller groups. The visualization will show the list of player being split in half repeatedly until they are compared 1 on 1 with another player and then they will be sorted and placed back together in acending order. The data inputeed does not need to be pre-sorted. The main assumption is that each player has a valid name which is a string and a valid number of tournament wins which is an int >=2 and that there is a least one player in the data set. A premade set of players will be entered for each tournament and before the data is sorted it will check that the dataset is not empty.
 
-Screen Shots of final visualizer- 
+Screen Shots of final visualizer can be found in the main repo of the project- 3 images attached.
 
 Decomposition: The program will begin with the tournament selection process. The user will have to select one of the four grand slam tournaments. After this, the dataset for the selected tournamnet will be selected and then displayed to the user. After this, the sorting process wil begin. The list of players will be recursively split and compared for number of wins. The sorted leaderboard will then be displayed to the user. Next, the user will select two players from the sorted list. These two players will be put head-to-head where the program will decide a winner. The winning player will have their win count increase by one and the players will be put back into the list where the sorting process will be repeated.
 
@@ -12,6 +12,9 @@ Pattern Recognition: This merge sort algorithm will follow a repeated pattern to
 Abstraction: The program focuses on the key ideas built around the merge sort algorithm. It ignores details that are not meaningful such as showing how each step of the recursion process works along with managing the memory that the alrogithm has used up. It also ignores many player details and only focuses on one key statistic to keep the program simple and focus on the sorting process.
 
 Alorithmic Design: Inputs: Tournament selection and player selection. These are both selected by the user. Process: Load the dataset from the selected tournament. Apply the merge sort. Simulate the head to head match of the players selected by user. Resort the players. Outputs: Visualization of the step-by-step merge sort process. Display the final ranked player list. Show updated list after matchup is complete.
+
+Steps to run locally: 
+1. Clone the repository: git clone 
 
 # Project Title 
 ## Chosen Problem (1-2 sentences) 
