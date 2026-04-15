@@ -14,14 +14,13 @@ Abstraction: The program focuses on the key ideas built around the merge sort al
 Alorithmic Design: Inputs: Tournament selection and player selection. These are both selected by the user. Process: Load the dataset from the selected tournament. Apply the merge sort. Simulate the head to head match of the players selected by user. Resort the players. Outputs: Visualization of the step-by-step merge sort process. Display the final ranked player list. Show updated list after matchup is complete.
 
 Steps to run locally: 
-1. Clone the repository: git clone 
+1. Clone the repository: git clone https://github.com/JrMuStAnGs1/Connor-Elliott-CISC121-Project/tree/main
+   cd Connor-Elliott-CISC121-Project
+2. Install Packages: pip install -r requirements.txt
+3. Run the application: python app.py
+4. Open in Browser: Open the link from the terminal
 
-# Project Title 
-## Chosen Problem (1-2 sentences) 
-## Chosen Algorithm (name + why it fits) 
-## Demo (video/gif/screenshot of at least one run) 
-## Problem Breakdown & Computational Thinking (include a flowchart + the 4 pillars as brief bullets) 
-## Steps to Run (local) + requirements.txt 
-## Hugging Face Link 
-## Testing (what you tried + edge cases) 
-## Author & Acknowledgment (sources + AI use, if any) 
+Testing: To test the program I went through a normal test case where I just selected each tournament, sorted the players, selected 2 names and completed the match up just to ensure that when edgecases are ignored then the code works properly. Next, I tested edge cases, What happens if the player did not select a tournament and the user tries to sort the data. The app will display an error message requiring the user to load a tournament. Another edge case I tested was if the same player was selected twice for the match up. This causes an error message requesting th euser to select two different players. Another case I tested is if no players were selected to be matched up and the user tries to play the match. This causes the user to be prompted to select both players. Another test I did was running the same match up mulitple times and seeing if it still updates the win count each time which was true.
+
+Author: Connor Elliott
+Acknowledgment: To help make this project I refeerenced the Slides from OnQ, specifically the merge sort slides to help me with the structure of merge sort. Gradio was used for the user interface aspect of the app. Chat GPT was used to help develop the app. The process and ideas for the app was made without the help of AI. The only use of AI was for helping to build the code for me ideas. AI was a very usful tool for helping to debug my project and ensuring edge cases are met.
